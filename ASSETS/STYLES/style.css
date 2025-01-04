@@ -10,6 +10,10 @@
     width: 100%;
 }
 
+.logo{
+    cursor: pointer;
+}
+
 .nav-wrap, .nav{
     display: flex;
     justify-content: center;
@@ -22,12 +26,10 @@
 }
 
 .nav a:hover{
-    border-style: solid;
+    border-bottom-style: solid;
     padding: 5px;
     color: #fe563a;
-    border-radius: 5px;
-    border-bottom-width: 4px;
-    border-bottom: 4px solid linear-gradient(to right, #fe563a 0%, #e43a78 100%);
+    border-bottom: 4px solid linear-gradient(left to right, #fe563a 0%, #e43a78 100%);
 }
 
 .btn{
@@ -38,7 +40,8 @@
     color: #fff;
     padding: 10px;
     gap: 10px;
-    min-width: 100px;
+    font-size: small;
+    min-width: 160px;
 }
 
 i{
@@ -47,10 +50,11 @@ i{
 
 .menu-bar{
     font-size: larger;
+    cursor: pointer;
 }
 
 .hero{
-    background-image: url(../İMGS/bg.jpg);
+    background-image: url(../imgs/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
